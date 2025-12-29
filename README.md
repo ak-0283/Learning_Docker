@@ -12,6 +12,13 @@ This repository tracks my Docker learning journey following the CampusX YouTube 
 ## 🗂️ Folder Structure
 - `docker_learning_pdf/`: 📚 Reference PDFs and notes
 
+## 📈 Progress So Far
+- ✅ 📄 Dockerfile basics: `FROM`, `WORKDIR`, `COPY`, `RUN`, `EXPOSE`, `CMD` (see `1stpart.txt`)
+- ✅ 🏗️ Build images: `docker build -t <user>/<name> .` (see `2ndpart.txt`)
+- ✅ 🚀 Run containers with port mapping: `docker run -p 8000:8501 <user>/<name>` (see `2ndpart.txt`)
+- ✅ ☁️ Push to Docker Hub: `docker login` + `docker push <user>/<name>` (see `3rdpart.txt`)
+- ✅ ⬇️ Pull and run images from Docker Hub: `docker pull <user>/<name>` + `docker run` (see `4thpart.txt`)
+
 ## ✅ Topics Covered / Plan
 - Basics: images, containers, layers
 - Working with `docker run`, `docker ps`, `docker logs`
