@@ -1,0 +1,21 @@
+while creating a docker file
+
+1. first write the base image
+e.g -> FROM python:3.9
+
+2. write the workdirectory
+e.g -> WORKDIR /app
+
+3. copy the directory
+e.g -> COPY . (Destination path) /app(where we want to copy)
+means to write -> COPY . /app
+
+
+4. run the docker 
+e.g -> RUN pip install -r requirements.txt
+
+5. give the port where you want to run
+e.g -> EXPOSE 8000
+
+6. command to execute the file
+e.g -> CMD["python","run","./app.py"(main directory)]

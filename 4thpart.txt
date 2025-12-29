@@ -1,0 +1,7 @@
+abb dusre ka code ko images mai download krke container mai dekhna
+
+1. first download krna
+-> docker pull abhay0283/crop
+
+2. to run the docker image
+-> docker run -p 8000:8501 username/file_name

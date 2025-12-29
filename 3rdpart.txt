@@ -1,0 +1,7 @@
+abb push krne ka time
+
+1. first check docker login hai ya nhi
+-> docker login
+
+2. docker push krna pdega
+-> docker push username/file_name

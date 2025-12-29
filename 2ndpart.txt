@@ -1,0 +1,13 @@
+now write the commands in terminal
+
+1. first build the image 
+-> docker build -t username/file_name .
+
+e.g -> docker build -t abhayabc/123 .
+
+2. now we will run the image so that docker will crate container
+-> docker run -p 8000:8501 username/file_name
+
+first 8000 telling that meri machine ka port hai jismai mai run krunga
+second 8501 telling that docker ke andr wala port hai
+-p is used for mapping
