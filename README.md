@@ -40,3 +40,7 @@ docker run hello-world
 ## 🔗 Useful Links
 - CampusX on YouTube: https://www.youtube.com/@campusx-official
 - Docker Docs: https://docs.docker.com/
+
+## 🚀 First Project
+- 🧪 GitHub (Dockerized app): https://github.com/ak-0283/Crop-Recommendation-System
+- 🐳 Docker Hub image: https://hub.docker.com/r/abhay0283/crop
